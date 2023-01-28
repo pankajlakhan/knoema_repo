@@ -39,3 +39,7 @@ models:
       marts:
           schema: marts
           materialized: table
+
+seeds:
+  pulse_dbt_workshop:
+    +schema: seed_data
